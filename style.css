@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --col1: #FC7359;
+    --col2: #17232D;
+    --col3: #1F2D36;
+    --text-col1: #FCFFFE;
+    --bg-col1: #131E28;
+    --font-1: "Noto Sans", sans-serif;
+}
+
+/* Default items */
+.mb{
+    margin-bottom: 150px;
+}
+
+.mw-m{
+    max-width: 1600px;
+    margin: auto;
+}
+
+.common-btn{
+    padding: 25px;
+    border: 2px solid var(--col1);
+    border-radius: 2px;
+    background-color: var(--col1);
+    font-size: 25px;
+    color: var(--text-col1);
+    transition: all 0.3s ease-in-out;
+}
+
+.common-outline-btn{
+    padding: 25px;
+    border: 2px solid var(--col1);
+    background: none;
+    border-radius: 2px;
+    font-size: 25px;
+    color: var(--text-col1);
+    transition: all 0.3s ease-in-out;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: var(--font-1);
+    background-color: var(--bg-col1);
+}
+
+header{
+    background-color: var(--bg-col1);
+}
+
+nav{
+    max-width: var(--max-width-pashapashi);
+    margin: auto;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+    color: var(--text-col1);
+}
+
+.head h2{
+    font-size: 35px;
+}
+
+.head ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 55px;
+}
+
+.head ul li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.hero-greeting{
+    font-size: 65px;
+    font-weight: 700;
+    color: var(--text-col1);
+}
+
+.hero-greeting span{
+    color: var(--col1);
+}
+
+.hero-name{
+    font-size: 55px;
+    color: var(--text-col1);
+    font-weight: 400;
+    margin-left: 55px;
+}
+
+.hero-work{
+    font-size: 75px;
+    font-weight: 900;
+    color: var(--text-col1);
+}
+
+.hero-btns{
+    display: flex;
+    gap: 50px;
+}
+
+
+.heroBtn1:hover {
+    cursor: pointer;
+    background: none;
+}
+
+.heroBtn2:hover{
+    cursor: pointer;
+    background-color: #FC7359;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img{
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+}
+
+.skills{
+    background-color: var(--col2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 25px 0;
+    font-size: 35px;
+    color: #434F59;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-col1);
+    margin-bottom: 150px;
+}
+
+.about-left, .about-right{
+    flex: 1;
+}
+
+.about-left{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutLeftt-items{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    font-size: 30px;
+}
+
+.about-right{
+    display: flex;
+    justify-content: center;
+}
+
+.aboutRight-items{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.aboutRight-items h1{
+    font-size: 70px;
+}
+
+.aboutRight-items p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.ab-numbers{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.num-item{
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.num-item h2{
+    font-size: 70px;
+}
+
+.num-item p{
+    line-height: 25px;
+    font-weight: 200;
+}
+
+.plus, .parcent{
+    color: var(--col1);
+}
+
+.proj-title{
+    text-align: center;
+    font-size: 70px;
+    color: var(--text-col1);
+}
+
+.project{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+.proj-left, .proj-right{
+    flex: 1;
+}
+
+.proj-left{
+    display: flex;
+    flex-direction: column;
+    color: var(--text-col1);
+    gap: 50px;
+}
+
+.proj-left h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.proj-skiills{
+    display: flex;
+    gap: 15px;
+}
+
+.proj-skiills p{
+    background-color: var(--col3);
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.proj-details{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.proj-btns{
+    display: flex;
+    gap: 50px;
+}
+
+.github-proj:hover{
+    cursor: pointer;
+    background: none;
+}
+
+.view-proj{
+    background: none;
+    border: none;
+    border-bottom: 2px solid var(--col1);
+    font-size: 25px;
+    color: var(--text-col1);
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.view-proj:hover{
+    cursor: pointer;
+    background-color: var(--col1);
+    border-radius: 5px;
+}
+
+.proj-right img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.projects{
+    margin-bottom: 150px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.left-contact, .right-contact{
+    flex: 1;
+}
+
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: var(--text-col1);
+}
+
+.con-p{
+    font-size: 35px;
+    font-weight: 200;
+    margin-left: 50px;
+}
+
+.con-qn, .con-talk{
+    font-size: 70px;
+}
+
+.con-submit{
+    align-self: flex-start;
+}
+
+.con-submit:hover{
+    cursor: pointer;
+    background: none;
+}
+
+.right-contact{
+    gap: 50px;
+}
+
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--text-col1);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.con-r8-p{
+    margin-bottom: 20px;
+}
+
+.conItem3 .con-r8-p{
+    margin-bottom: 100px !important;
+}
+
+footer{
+    background-color: var(--col3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-col1);
+    padding: 50px 0;
+    gap: 20px;
+}
+
+footer h2{
+    font-size: 35px;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+footer ul{
+    display: flex;
+    gap: 50px;
+    color: var(--col2);
+}
+
+footer ul li{
+    list-style: none;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--text-col1);
+    color: var(--col2);
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.copy{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.copy a{
+    text-decoration: none;
+    color: var(--text-col1);
+    font-weight: bold;
+}
